@@ -12,11 +12,11 @@ stylo = t.Turtle()
 stylo.shape("classic")
 t.width(2)
 
-# Tracé de la maisons
+# Tracé de la maison
 # Base de la maison : Le carré
 for i in range(4):
     t.forward(80) # On avance de 80
-    t.left(90) # on tourne l'aiguille de 90 degrés vers la gauche
+    t.left(90) # On tourne l'aiguille de 90 degrés vers la gauche
 
 # Dessin de la porte
 t.goto(20,0) # On se place à une distance de 20 de l'axe de x
